@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "Bash(pip install *)",
-      "Bash(python predict.py)"
+      "Bash(python predict.py)",
+      "Bash(python3 -c ' *)"
     ]
   }
 }
