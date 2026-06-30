@@ -1,0 +1,41 @@
+create a household price predictor for new yock city database provided 
+
+read the ps and write your prediction program.
+save your predictions to submission/suggestion.csv, then zip the submission directory itself into submisiin.zip
+
+your submisiion directory should look like this 
+
+submission
+- suggestion.csv
+-your analysis and modeling files (.py,.ipnyb,etc.)
+
+you  can upload submission.zip , you can upload as many times as you want , each upload is scored automaticall yand result is shown on screen
+
+you also need to describe your analysis ,explain approach an any techniques used
+
+
+
+task:
+- use historical transaction data to build a ML model that predicts 2024 nyc residential sale process.
+
+datasets:
+- train_data.csv
+	the records are residential sales transacted in nyc bw 2020-01-01 and 2023-12-31, with sales_price being the actual transaction pric ein usd
+
+- test_data.csv:
+	here. sales_price column is empty for each row
+
+suggestion.csv: sample prediction file
+
+
+do not change row order , or edit any colum other that sales_price in test_data.csv,
+then extract only id and sale_price columns nd save the result as suggestion.csv
+
+sales_price should be +ve no. in plain decimal notation(integer/decimal)
+
+add comments to your code
+
+
+evaluation metric(the final score is calculated through this): rmsle (root mean squared logarithmic error) for your prediction, 
+low rmsle = better 
+perfect prediction > 0 rmsle
